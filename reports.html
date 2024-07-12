@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reports | Personal Finance Manager</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">Finance Manager</div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="dashboard.html">Dashboard</a></li>
+                    <li><a href="Transaction.html">Transactions</a></li>
+                    <li><a href="budget.html">Budget</a></li>
+              
+                   
+            </nav>
+           
+        </div>
+    </header>
+    
+    <main>
+        <section class="reports">
+            <div class="container">
+                <h2>Reports</h2>
+                <div class="report-controls">
+                    <label for="reportType">Report Type:</label>
+                    <select id="reportType" onchange="generateReport()">
+                        <option value="summary">Summary</option>
+                        <option value="incomeVsExpense">Income vs Expense</option>
+                        <option value="categoryWise">Category-wise</option>
+                    </select>
+                </div>
+                <div id="reportContent">
+                    <!-- Dynamic report content will be displayed here -->
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Finance Manager. All rights reserved.</p>
+            <ul>
+                <li><a href="policy.html">Privacy Policy</a></li>
+                <li><a href="terms.html">Terms of Service</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+   
+</body>
+</html>

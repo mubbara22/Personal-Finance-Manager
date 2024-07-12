@@ -1,0 +1,1063 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    margin :0px;
+    padding:0px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+h1{
+    color:black;
+}
+img{
+    height:30;
+    width:200;
+    border-width:5px;
+    border-style:solid;
+    border-radius: 30px;
+   
+ 
+}
+
+.background{
+    width: 200%;
+    height:150vh;
+
+    background-image: url(finance-manager.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+header {
+    background: #153e58;
+    color: #06090a;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #a2b9d3 3px solid;
+}
+
+
+header .logo {
+    float: left;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #0c0a0f;
+    text-decoration: none;
+    font-weight: bold;
+}
+header .auth-buttons {
+    float: right;
+    margin-top: 10px;
+}
+
+header .auth-buttons button {
+    background: #b9cae7;
+    color: #040406;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+.auth-buttons button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #bbd4ef;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.auth-buttons button:hover {
+    background-color: #9abbdd;
+    transform: translateY(-2px);
+}
+
+.auth-buttons button:active {
+    animation: buttonPress 0.2s;
+}
+
+@keyframes buttonPress {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.95);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+.auth-buttons button, .nav-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #c3defc;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.auth-buttons button:hover, .nav-button:hover {
+    background-color: #bbd3ed;
+    transform: translateY(-2px);
+}
+
+.auth-buttons button:active, .nav-button:active {
+    animation: buttonPress 0.2s;
+}
+
+@keyframes buttonPress {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.95);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+/*get for started*/
+    main {
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .get-started {
+        max-width: 800px;
+        margin: 40px auto;
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        
+    }
+    
+    .get-started h1 {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+    
+    .get-started p {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    
+    .get-started .get-started-button {
+        font-size: 20px;
+    }
+    /*features*/
+
+.features {
+    text-align: center;
+    padding: 50px 0;
+    background: #beccd7;
+}
+
+.features h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.features-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.feature-item {
+    background: #bacae4;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #dddddd;
+    flex-basis: 22%;
+    text-align: center;
+}
+
+.feature-item img {
+    max-width: 100%;
+    height: 100px;
+}
+
+.feature-item h3 {
+    margin: 20px 0;
+    font-size: 24px;
+}
+.auth-buttons button, .action-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #bad0e8;
+    color: rgb(4, 3, 20);
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+/*Annimation for dashboard,transaction,report button*/
+.auth-buttons button:hover, .action-button:hover {
+    background-color: #a2c4e8;
+    transform: translateY(-2px);
+}
+
+.auth-buttons button:active, .action-button:active {
+    animation: buttonPress 0.2s;
+}
+
+@keyframes buttonPress {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.95);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.testimonials {
+    padding: 50px 0;
+    background: #d1d2d5;
+}
+
+.testimonials h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.testimonials-carousel {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.testimonial-item {
+    background: #c3c6cc;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #dddddd;
+    flex-basis: 30%;
+    text-align: center;
+}
+/*footer*/
+
+footer {
+    background: #9dceec;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+/*css for transaction page*/
+
+main {
+    padding: 20px 0;
+    background: #5b92c9;
+}
+
+.account-summary, .recent-transactions, .budget-overview, .financial-goals {
+    margin: 20px 0;
+}
+
+.account-summary .summary-cards, .financial-goals .goal {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.summary-cards .card, .goal {
+    background: #8ca8e6;
+    padding: 20px;
+    border: 1px solid #acd0ed;
+    flex-basis: 22%;
+    text-align: center;
+}
+
+.recent-transactions table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.recent-transactions th, .recent-transactions td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #86badb;
+}
+
+.recent-transactions th {
+    background: #85aad4;
+}
+
+.budget-overview {
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: rgb(157, 205, 247);
+    padding: 20px;
+    border-radius: 10px;
+ 
+    text-align: left;
+}
+
+.budget-overview h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.budget-summary, .expense-breakdown {
+    margin-bottom: 20px;
+}
+
+.budget-summary h3, .expense-breakdown h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.expense-breakdown ul {
+    list-style: none;
+    padding: 0;
+}
+
+.expense-breakdown ul li {
+    margin-bottom: 5px;
+}
+
+.expense-chart {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.financial-goals .goal .progress-bar {
+    background: #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px 0;
+}
+
+.financial-goals .goal .progress {
+    height: 20px;
+    background: #d8dddd;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+   
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: rgb(246, 248, 250);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #5d79f8;
+}
+
+.show {
+    display: block;
+}
+
+.transactions {
+    padding: 20px 0;
+    background: #f9f9f9;
+}
+
+.transaction-controls {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.transaction-controls button {
+    background: #83a2d2;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.transaction-controls input {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #dddddd;
+}
+
+#transactionsTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#transactionsTable th, #transactionsTable td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #dddddd;
+}
+
+#transactionsTable th {
+    background: #f4f4f4;
+}
+
+.form-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 1px solid #ddd;
+    z-index: 9;
+    background-color: white;
+    width: 300px;
+    box-shadow: 0px 0px 10px 0px rgba(112, 154, 206, 0.2);
+}
+
+.form-container {
+    max-width: 300px;
+    padding: 20px;
+    background-color: white;
+}
+
+.form-container h2 {
+    margin-bottom: 20px;
+}
+
+.form-container input[type=text], .form-container input[type=number], .form-container input[type=date] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 10px 0;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+.form-container .btn {
+    background-color: #0a4069;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+}
+
+.form-container .cancel {
+    background-color: rgb(99, 164, 204);
+}
+
+.form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+}
+
+.budget {
+    padding: 20px 0;
+    background: #f9f9f9;
+}
+
+.budget-controls {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.budget-controls button {
+    background: #8eb7db;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.budget-controls input {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #dddddd;
+}
+
+#budgetTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#budgetTable th, #budgetTable td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #dddddd;
+}
+
+#budgetTable th {
+    background: #f4f4f4;
+}
+
+.form-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 1px solid #ddd;
+    z-index: 9;
+    background-color: white;
+    width: 300px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+}
+
+.form-container {
+    max-width: 300px;
+    padding: 20px;
+    background-color: white;
+}
+
+.form-container h2 {
+    margin-bottom: 20px;
+}
+
+.form-container input[type=text], .form-container input[type=number] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 10px 0;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+.form-container .btn {
+    background-color: #addeff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+}
+
+.form-container .cancel {
+    background-color: rgb(149, 195, 239);
+}
+
+.form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+}
+
+
+.budget {
+    padding: 20px 0;
+    background: #f9f9f9;
+}
+
+.budget-controls {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.budget-controls button {
+    background: #92adf8;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.budget-controls input {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #dddddd;
+}
+
+#budgetTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#budgetTable th, #budgetTable td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #dddddd;
+}
+
+#budgetTable th {
+    background: #f4f4f4;
+}
+
+.form-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 1px solid #ddd;
+    z-index: 9;
+    background-color: white;
+    width: 300px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+}
+
+.form-container {
+    max-width: 300px;
+    padding: 20px;
+    background-color: white;
+}
+
+.form-container h2 {
+    margin-bottom: 20px;
+}
+
+.form-container input[type=text], .form-container input[type=number] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 10px 0;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+.form-container .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+}
+
+.form-container .cancel {
+    background-color: rgb(122, 167, 234);
+}
+
+.form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+}
+/*report*/
+
+.reports {
+    padding: 20px 0;
+    background: #f9f9f9;
+}
+
+.report-controls {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+.report-controls label {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.report-controls select {
+    padding: 10px;
+    border: 1px solid #dddddd;
+}
+
+#reportContent {
+    margin-top: 20px;
+    padding: 20px;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    box-shadow: 0px 0px 10px 0px rgba(132, 152, 244, 0.2);
+}
+/*contact us page*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #0b303f;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: rgb(99, 198, 223);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.auth-buttons button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #2b79cc;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.auth-buttons button:hover {
+    background-color: #245c97;
+}
+
+.main {
+    padding: 20px;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.contact-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-form .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.contact-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #0d4886;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.contact-form button:hover {
+    background-color: #96c2f1;
+}
+
+.error-message {
+    color: rgb(139, 172, 220);
+    margin-top: 5px;
+}
+/*policy*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.auth-buttons button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #84aad3;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.auth-buttons button:hover {
+    background-color: #a2c9f3;
+}
+
+.main {
+    padding: 20px;
+}
+
+.policy {
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.policy h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.policy p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+/*about*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+
+header {
+    background-color: #0c516e;
+    color: rgb(6, 8, 17);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: rgb(206, 212, 215);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+.main {
+    padding: 20px;
+}
+
+.about {
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(149, 200, 232, 0.1);
+    text-align: left;
+}
+
+.about h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+/*termsof policy*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #88b4ec;
+}
+
+header {
+    background-color: #15416571;
+    color: black;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.auth-buttons button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #e7f1fc;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.auth-buttons button:hover {
+    background-color: #133250;
+}
+
+.main {
+    padding: 20px;
+}
+
+.terms {
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.terms h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.terms h3 {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.terms p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.terms a {
+    color: #619edb;
+    text-decoration: none;
+}
+
+.terms a:hover {
+    text-decoration: underline;
+}
+
